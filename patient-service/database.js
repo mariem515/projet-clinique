@@ -30,3 +30,5 @@ db.serialize(() => {
 module.exports = db;
 
 
+
+// SQLite database stores patient information
