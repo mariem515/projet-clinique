@@ -98,3 +98,4 @@ async function startServer() {
 }
 
 startServer();
+// API Gateway exposes REST and GraphQL endpoints for clients
