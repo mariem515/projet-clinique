@@ -87,3 +87,6 @@ Project realized by:
 
 Engineering Cycle — Computer Science
 SOA & Microservices Project
+
+## Project Status
+Project completed successfully and ready for professor evaluation.
