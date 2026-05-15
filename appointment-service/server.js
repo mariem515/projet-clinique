@@ -90,3 +90,4 @@ server.bindAsync(
     server.start();
   }
 );
+// Kafka Producer publishes appointment-created events to Kafka broker
