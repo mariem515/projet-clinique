@@ -99,3 +99,4 @@ app.get("/notifications", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Notification Service running on http://localhost:${PORT}`);
 });
+// Kafka Consumer listens to appointment-created events and stores notifications
