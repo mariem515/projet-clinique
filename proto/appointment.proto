@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package appointment;
+
+service AppointmentService {
+  rpc GetAllAppointments (Empty) returns (AppointmentList);
+  rpc CreateAppointment (CreateAppointmentRequest) returns (Appointment);
+}
+
+message Empty {}
+
+message Appointment {
+  int32 id = 1;
+  int32 patient_id = 2;
+  string date = 3;
+  string doctor = 4;
+  string status = 5;
+}
+
+message CreateAppointmentRequest {
+  int32 patient_id = 1;
+  string date = 2;
+  string doctor = 3;
+  string status = 4;
+}
+
+message AppointmentList {
+  repeated Appointment appointments = 1;
+}
